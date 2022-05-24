@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/categories/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/discovery/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "components/tabbar/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "威可多官方商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	// 	"color": "#999999",
+	// 	"selectedColor": "#000000",
+	// 	"iconWidth": "18px",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "首页",
+	// 			"iconPath": "static/images/tabbar/home-nor@3x.png",
+	// 			"selectedIconPath": "static/images/tabbar/home@3x.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/categories/index",
+	// 			"text": "分类",
+	// 			"iconPath": "static/images/tabbar/home-nor@3x.png",
+	// 			"selectedIconPath": "static/images/tabbar/home@3x.png"
+	// 		}, {
+	// 			"pagePath": "pages/discovery/index",
+	// 			"text": "发现",
+	// 			"iconPath": "static/images/tabbar/discovery-nor@3x.png",
+	// 			"selectedIconPath": "static/images/tabbar/discovery@3x.png"
+	// 		}, {
+	// 			"pagePath": "pages/cart/index",
+	// 			"text": "购物车",
+	// 			"iconPath": "static/images/tabbar/cart-nor@3x.png",
+	// 			"selectedIconPath": "static/images/tabbar/cart@3x.png"
+	// 		}, {
+	// 			"pagePath": "pages/my/index",
+	// 			"text": "我的",
+	// 			"iconPath": "static/images/tabbar/my-nor@3x.png",
+	// 			"selectedIconPath": "static/images/tabbar/my@3x.png"
+	// 		}
+	// 	]
+	// }
+}
